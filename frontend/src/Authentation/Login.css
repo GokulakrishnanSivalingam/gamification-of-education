@@ -2,17 +2,20 @@
             margin: 0%
         }
         
-        .background {
-            background: url('./assets/back.png');
-        }
+        body {}
         
         fieldset {
             width: fit-content;
             border-radius: 0px;
             border: none;
             background-color: white;
-            margin-top: 100px;
-            margin-left: 500px;
+            margin-top: 90px;
+        }
+        
+        .cont {
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         
         input {
@@ -53,6 +56,10 @@
             margin: 5px;
         }
         
+        textarea {
+            border: 1px solid grey;
+        }
+        
         .icon h1 {
             background-color: blue;
             border-radius: 50%;
@@ -72,7 +79,6 @@
                 border-radius: 0px;
                 border: none;
                 background-color: white;
-                margin-top: 180px;
-                margin-left: 40px;
+                margin-top: 130px;
             }
         }

@@ -31,10 +31,10 @@ function Feedback() {
   };
 
   return (
-    <div > {/* Add class for the border container */}
+    <div > 
    < Navbar/>
-    <fieldset>
-      <h1>Feedback Form</h1>
+ <div className="cont"><fieldset> <br />
+      <h1>Feedback Form</h1> <br />
       {submitted ? (
         <p>Thank you for your feedback!</p>
       ) : (
@@ -64,22 +64,22 @@ function Feedback() {
           </div>
 
           <div>
-            <label htmlFor="message">Message:</label>  <br />
+            <label htmlFor="message">Message:</label>  <br /> <br />
             <textarea
               id="message"
               name="message"
               value={formData.message}
               onChange={handleInputChange}
               required
-              rows={5}
-              cols={30}
+              rows={9}
+              cols={35}
             ></textarea>
           </div>
         <br/>
          <div className="auth"><button type="submit">Submit</button></div> 
         </form>
       )}
-      </fieldset>
+      </fieldset></div>   
     </div>
   );
 }

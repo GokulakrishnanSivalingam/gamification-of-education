@@ -61,6 +61,7 @@ function Login() {
     <>
       <div>
         <Navbar></Navbar>
+        <div className="cont">
         <fieldset>
      <center>  <div className="icon"><h1><FaUser/></h1></div> </center>  <br />
           <form>
@@ -94,7 +95,7 @@ function Login() {
           </form>
           <br />
           <p>do not have any account? <a href="/register">register</a></p>
-        </fieldset>
+        </fieldset></div>
         <br />
       </div>
     </>

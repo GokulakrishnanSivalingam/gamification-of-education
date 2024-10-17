@@ -17,13 +17,15 @@ function App() {
   
 
     <div className="card-container">
- <div className="card-avs">
-<a href="/g2">  <img src={aa} alt="" /></a>
+ <div className="card-avs"> 
   <h1>Riddle</h1>
+<a href="/g2">  <img src={aa} alt="" /></a>
+ 
   </div>
-  <div className="card-avs">
+  <div className="card-avs">  
+    <h1>Scenario quizz</h1>
  <a href="/video/1"><img src={as} alt="" /></a> 
-  <h1>Scenario quizz</h1>
+
 </div>
 </div> 
 <div className="container1"><div className="gif">

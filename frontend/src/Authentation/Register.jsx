@@ -72,7 +72,7 @@ function Register() {
     <>
       <div>
         <Navbar></Navbar>
-        <fieldset>
+   <div className="cont">   <fieldset>
     <center><div className="icon"> <h1>< BiSolidUserRectangle /></h1></div> </center>  <br />
         <form >
           <label htmlFor="email">Email</label><br />
@@ -103,7 +103,7 @@ function Register() {
      
         </form>
       
-        </fieldset><br />
+        </fieldset></div>  <br />
     
 
       </div>
